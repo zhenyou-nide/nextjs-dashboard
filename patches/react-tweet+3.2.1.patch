@@ -1,0 +1,10 @@
+diff --git a/node_modules/react-tweet/dist/index.js b/node_modules/react-tweet/dist/index.js
+index aad1484..a23d788 100644
+--- a/node_modules/react-tweet/dist/index.js
++++ b/node_modules/react-tweet/dist/index.js
+@@ -4,3 +4,4 @@ export * from './twitter-theme/components.js';
+ export * from './tweet.js';
+ export * from './utils.js';
+ export * from './hooks.js';
++console.log('修改了')
+\ No newline at end of file

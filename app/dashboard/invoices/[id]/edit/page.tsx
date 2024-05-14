@@ -30,7 +30,7 @@ export default async function Page({
           },
         ]}
       />
-      {Number(invoice.amount) % 2 === 0 && <Tweet id="1628832338187636740" />}
+      {false && <Tweet id="1628832338187636740" />}
       <Form invoice={invoice} customers={customers} />
     </main>
   );
